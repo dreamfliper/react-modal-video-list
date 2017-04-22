@@ -1,9 +1,8 @@
 {
-  "name": "swipe",
+  "name": "react-modal-video",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.15.2",
     "rc-swipeout": "^1.2.6",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
