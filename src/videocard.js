@@ -13,7 +13,7 @@ class Videocard extends Component {
       <div>
         <img alt="preview" src={this.props.poster} onClick={this.handleClick}/>
         <div className="video-info">
-          <h4><a href="#">{this.props.title}</a></h4>
+          <h4><a href="#" onClick={this.handleClick}>{this.props.title}</a></h4>
           <p>{this.props.author}</p>
           <p>{this.props.views} views • {this.props.uploadAt} hours ago</p>
         </div>
